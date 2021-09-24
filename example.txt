@@ -1,0 +1,1 @@
+<img src="img/icons/play-mini-icon.svg" alt="" id="reviews__images_play">

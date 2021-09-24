@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="shortcut icon" href="img/icons/logo-educenter-ico.ico" type="image/x-icon">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">  
+  <title>EduCenter</title>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <a href="#" class="header__logo">
+        <img src="img/icons/logo-educenter.svg" alt="" id="header__logo-icon">
+        <p id="header__logo-text">создай свою онлайн школу <br/> вместе с educenter</p>
+      </a>
+      <div class="header__container">
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#about">О продукте</a></li>
+            <li><a href="#our_works">Наши работы</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#rates">Тарифы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__button">
+          <button id="header__button">Бесплатная консультация</button>
+        </div>
+        <div class="header__language">
+          <a href="#" id="header__lang_items">Қаз</a>
+          <a href="#" id="header__lang_items">Рус</a>
+          <a href="#" id="header__lang_items">En</a>
+        </div>
+      </div>
+      <div class="header__adaptive">
+        <div class="header__language">
+          <a href="#" id="header__lang_items">Қаз</a>
+          <a href="#" id="header__lang_items">Рус</a>
+          <a href="#" id="header__lang_items">En</a>
+        </div>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#about">О продукте</a></li>
+            <li><a href="#our_works">Наши работы</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#rates">Тарифы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__button">
+          <button id="header__button">Бесплатная консультация</button>
+        </div>
+        <div class="header__contacts">
+          <div class="header__contacts_phone">
+            <h2 id="header__contacts_phone">Можно позвонить:</h2>
+            <a href="tel:+77789920000">+7 778 992 0000</a>
+          </div>
+          <div class="header__contacts_social">
+            <h2 id="header__contacts_phone">Можно написать:</h2>
+            <div class="header__contacts_social_items">
+              <a href="#" class="header__contacts_tg">
+                <img src="img/icons/tg-icon3.svg" alt="" id="header__contacts_tg">
+                Telegram
+              </a>
+              <a href="#" class="header__contacts_wa">
+                <img src="img/icons/wa-icon3.svg" alt="" id="header__contacts_wa">
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu_burger" id="menu-burger">
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="content2">
+      <div class="main__title">
+        <h1 id="main__title">Онлайн платформа <br/>
+          для создания и <br/>
+         продажи онлайн курсов
+         </h1>
+      </div>
+      <div class="main__subtitle">
+        <h3 id="main__subtitle">
+          Для тренеров, преподавателей, инфобизнесменов, вебинаров, тренингов, курсов, очных и онлайн-занятий
+        </h3>
+      </div>
+      <div class="main__button">
+        <button id="main__button">Получить платформу</button>
+      </div>
+      <div class="main__modal" id="main__myModal">
+        <div class="main__modal_content">
+          <span class="main__modal_close"><img src="img/icons/close-icon.svg" alt=""></span>
+          <h2 id="main__modal_title">Заполните форму</h2>
+          <form action="" id="main__modal_form">
+            <input type="text" id="main__modal_name" placeholder="Как вас зовут ?" required>
+            <input type="tel" id="main__modal_phone" placeholder="Ваш номер телефона" required>
+            <label class="main__modal_container">
+              <input type="checkbox" checked="checked" required>
+              Я согласен на обработку данных
+              <span class="main__modal_checkmark"></span>
+            </label>
+            <button id="main__modal_button" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+      <img src="img/gift1.png" id="main__gift" alt="">
+    </div>
+  </main>
+
+  <section class="about" id="about">
+    <div class="content">
+      <div class="about__title">
+        <h3 id="about__title">Узнай о  EduCenter за 8 минут</h3>
+      </div>
+      <div class="about__content">
+        <button type="button" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/yvNA-oan3hA" data-target="#review_myModal"><img src="img/icons/play-icon.png" alt="" id="about__play"></button>
+        <div class="about__content_images">
+          <img src="img/about_image1.png" alt="" id="about__image1">
+          <img src="img/about_image2.png" alt="" id="about__image2">
+        </div>
+      </div>
+      <img src="img/icons/paperairplane-icon.png" alt="" id="about__paperair">
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="content">
+      <div class="services__left_content">
+        <h1 id="services_left_title">
+          <span>Давайте адаптируем платформу</span> <br/>
+          под ваши потребности
+        </h1>
+        <div class="services__steps">
+          <form id="services__steps_form" action="">
+            <h2 id="services__form_title">Расскажите немного о себе. Выберите варианты ниже:</h2>
+            <div class="services__form_numbers">
+              <span class="services__step" style="padding: 17px 23px;">1</span>
+              <div id="services__step_line"></div>
+              <span class="services__step">2</span>
+              <span id="services__step_line"></span>
+              <span class="services__step">3</span>
+              <span id="services__step_line"></span>
+              <span class="services__step" style="padding: 17px 20px;">
+                <svg id="services__step_checkmark" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.707 9.23245L1.414 5.93945L0 7.35345L4.707 12.0605L14.414 2.35345L13 0.939453L4.707 9.23245Z" fill="#007AFF"/>
+                </svg>                  
+              </span>
+            </div>
+            <div class="services__form_tab"><h3 id="services__form_tab_title">Выберите для каких целей вы хотите использовать платформу:</h3>
+              <div class="services__form_tab_items">
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" oninput="this.className = ''" required>Для блогеров
+                  <span class="services__form_checkmark"></span>
+                </label>
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" oninput="this.className = ''" required>Для инфобизнесменов
+                  <span class="services__form_checkmark"></span>
+                </label>
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" oninput="this.className = ''" required>Для репетиторов
+                  <span class="services__form_checkmark"></span>
+                </label>
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" oninput="this.className = ''" required>Открыть онлайн школу
+                  <span class="services__form_checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="services__form_tab"><h3 id="services__form_tab_title">Вы хотите приобрести платформу:</h3>
+              <div class="services__form_tab_items">
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" required>Взять в аренду ежемесячно
+                  <span class="services__form_checkmark"></span>
+                </label>
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" required>Купить навсегда
+                  <span class="services__form_checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="services__form_tab"><h3 id="services__form_tab_title">Вам нужна поддержка:</h3>
+              <div class="services__form_tab_items">
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" required>Я в первый  на онлайн платформе
+                  <span class="services__form_checkmark"></span>
+                </label>
+                <label for="services__form_radio" class="services__radio_container">
+                  <input type="radio" name="services__form_radio" id="services__form_radio" required>Я уже работал (а) на онлайн платформе
+                  <span class="services__form_checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="services__form_tab"><h3 id="services__form_tab_title">Вам нужна поддержка:</h3>
+              <div class="services__form_tab_items">
+                <label for="services__form_text" class="services__text_container">
+                  <input type="text" name="services__form_text" id="services__form_text" placeholder="Имя" oninput="this.className = ''" required>
+                </label>
+                <label for="services__form_text" class="services__text_container">
+                  <input type="tel" name="services__form_text" id="services__form_text" placeholder="Номер телефона" oninput="this.className = ''" required>
+                </label>
+              </div>  
+            </div>
+            <div style="overflow:auto;">
+              <div style="float:right;">
+                <button type="button" id="services__form_prevBtn" onclick="nextPrev(-1)">Назад</button>
+                <button type="button" id="services__form_nextBtn" onclick="nextPrev(1)">Далее</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="services__right_content">
+        <h1 id="services_right_title">Консультация и сопровождение до запуска онлайн школы</h1>
+        <p id="services_right_subtitle">Звоните или пишите мы с удовольствием ответим на все вопросы!</p>
+        <div class="services__right_info">
+          <img src="img/manager-info.jpg" alt="" id="services__info_img">
+          <div class="services__right_name">
+            <h3 id="services__manager_name">Карибжан Данияр</h3>
+            <h4 id="services__manager_status">Менеджер</h4>
+          </div>
+        </div>
+        <a href="https://t.me/BUGINSOFT" target="_blank" class="services_right_telegram">
+          <img src="img/icons/tg-icon2.svg" alt="" id="services_right_tg_img">
+          <p id="services_right_tg_text">+7 778 992 0000</p>
+        </a>
+        <a href="https://wa.me/+77789920000" target="_blank" class="services_right_whatsapp">
+          <img src="img/icons/wa-icon2.svg" alt="" id="services_right_wa_img">
+          <p id="services_right_wa_text">+7 778 992 0000</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about2">
+    <div class="content">
+      <div class="about2__title">
+        <h3 id="about2__title">Для кого предназначена платформа</h3>
+      </div>
+      <div class="about2__content">
+        <div class="about2__content_items">
+          <img src="img/Ellipse 111.jpg" alt="" id="about2__content_img">
+          <h4 id="about2__content_title">Инфобизнесменов</h4>
+          <p id="about2__content_subtitle">Для начинающих и опытных инфобизнесменов, которые проводят онлайн курсы</p>
+        </div>
+        <div class="about2__content_items">
+          <img src="img/Ellipse 111-2.jpg" alt="" id="about2__content_img">
+          <h4 id="about2__content_title">Учителей</h4>
+          <p id="about2__content_subtitle">Для начинающих учителей, которые только переходят на онлайн формат</p>
+        </div>
+        <div class="about2__content_items">
+          <img src="img/Ellipse 111-3.jpg" alt="" id="about2__content_img">
+          <h4 id="about2__content_title">Блогеров</h4>
+          <p id="about2__content_subtitle">У которых есть свои онлайн курсы</p>
+        </div>
+        <div class="about2__content_items">
+          <img src="img/Ellipse 111-4.jpg" alt="" id="about2__content_img">
+          <h4 id="about2__content_title">Бизнес-тренеров</h4>
+          <p id="about2__content_subtitle">Коучерам, которым нужна автоматизированная платформа</p>
+        </div>
+        <div class="about2__content_items">
+          <img src="img/Ellipse 111-5.jpg" alt="" id="about2__content_img">
+          <h4 id="about2__content_title">Репетиторов</h4>
+          <p id="about2__content_subtitle">Для репетиторов, которые хотят работать дистанционно</p>
+        </div>
+        <div class="about2__content_items">
+          <img src="img/Ellipse 111-6.jpg" alt="" id="about2__content_img">
+          <h4 id="about2__content_title">Онлайн-обучение</h4>
+          <p id="about2__content_subtitle">Абсолютно для любой нише, которую хотите перенести на онлайн формат</p>
+        </div>
+      </div>
+      <div class="about2__content_swiper">
+        <div class="swiper-container about2Swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/Ellipse 111.jpg" alt="" id="about2__content_img">
+              <h4 id="about2__content_title">Инфобизнесменов</h4>
+              <p id="about2__content_subtitle">Для начинающих и опытных инфобизнесменов, которые проводят онлайн курсы</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Ellipse 111-2.jpg" alt="" id="about2__content_img">
+              <h4 id="about2__content_title">Учителей</h4>
+              <p id="about2__content_subtitle">Для начинающих учителей, которые только переходят на онлайн формат</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Ellipse 111-3.jpg" alt="" id="about2__content_img">
+              <h4 id="about2__content_title">Блогеров</h4>
+              <p id="about2__content_subtitle">У которых есть свои онлайн курсы</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Ellipse 111-4.jpg" alt="" id="about2__content_img">
+              <h4 id="about2__content_title">Бизнес-тренеров</h4>
+              <p id="about2__content_subtitle">Коучерам, которым нужна автоматизированная платформа</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Ellipse 111-5.jpg" alt="" id="about2__content_img">
+              <h4 id="about2__content_title">Репетиторов</h4>
+              <p id="about2__content_subtitle">Для репетиторов, которые хотят работать дистанционно</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Ellipse 111-6.jpg" alt="" id="about2__content_img">
+              <h4 id="about2__content_title">Онлайн-обучение</h4>
+              <p id="about2__content_subtitle">Абсолютно для любой нише, которую хотите перенести на онлайн формат</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <button id="about2__button">Попробовать 5 дней бесплатно</button>
+    </div>
+  </section>
+
+  <section class="our_works" id="our_works">
+    <div class="content">
+      <div class="our_works__title">
+        <h3 id="our_works__title">Наши работы</h3>
+      </div>
+      <div class="our_works__content">
+        <div class="our_works__content_items">
+            <div class="our_works__content_hover">
+              <img src="img/our_works-0.jpg" alt="" id="our_works__content_hover">
+              <a href="#" id="our_works__content_view">Смотреть <br> проект</a>
+            </div>
+            <img id="our_works__content_img" src="img/our_works-1.jpg" alt="">
+            <div class="our_works__content_titles">
+              <h4 id="our_works__content_title">Образовательная платформа Daryn online</h4>
+              <h5 id="our_works__content_subtitle">Образовательная экосистема №1 в Казахстане</h5>
+            </div>
+        </div>
+        <div class="our_works__content_items">
+            <div class="our_works__content_hover">
+              <img src="img/our_works-0.jpg" alt="" id="our_works__content_hover">
+              <a href="#" id="our_works__content_view">Смотреть <br> проект</a>
+            </div>
+            <img id="our_works__content_img" src="img/our_works-2.jpg" alt="">
+            <div class="our_works__content_titles">
+              <h4 id="our_works__content_title">Мобильное приложение Til Bil</h4>
+              <h5 id="our_works__content_subtitle">Онлайн обучение</h5>
+            </div>
+        </div>
+        <div class="our_works__content_items">
+            <div class="our_works__content_hover">
+              <img src="img/our_works-0.jpg" alt="" id="our_works__content_hover">
+              <a href="#" id="our_works__content_view">Смотреть <br> проект</a>
+            </div>
+            <img id="our_works__content_img" src="img/our_works-3.jpg" alt="">
+            <div class="our_works__content_titles">
+              <h4 id="our_works__content_title">Музыкальная школа Qarshyga</h4>
+              <h5 id="our_works__content_subtitle">Онлайн обучение музыкальным инструментам</h5>
+            </div>
+        </div>
+        <div class="our_works__content_items">
+            <div class="our_works__content_hover">
+              <img src="img/our_works-0.jpg" alt="" id="our_works__content_hover">
+              <a href="#" id="our_works__content_view">Смотреть <br> проект</a>
+            </div>
+            <img id="our_works__content_img" src="img/our_works-4.jpg" alt="">
+            <div class="our_works__content_titles">
+              <h4 id="our_works__content_title">Приложение Tender First</h4>
+              <h5 id="our_works__content_subtitle">Онлайн платформа, курсы по тендерам</h5>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rates" id="rates">
+    <div class="content">
+      <div class="rates__title">
+        <h3 id="rates__title">Тарифы</h3>
+      </div>
+      <div class="rates__content">
+        <div class="rates__content_items">
+          <div class="rates__content_header">
+            <h2 id="rates__content_title">01</h2>
+            <h3 id="rates__content_subtitle">Ежемесячный</h3>
+            <ul class="rates__content_list">
+              <li><span>Ежемесячные платежи</span></li>
+              <li><span>Поддержка платформы</span></li>
+              <li><span>Личный менеджер</span></li>
+              <li><span>Бесплатная консультация</span></li>
+              <li><span>Аккаунт VIMEO c хранилищем 250 ГБ</span></li>
+              <li><span>Онлайн прием платежей</span></li>
+              <li><span>Свой домен</span></li>
+              <li><span>Свой логотип</span></li>
+              <li><span>Тестирование</span></li>
+              <li><span>Бесплатный 5-дневный период</span></li>
+              <li id="gray_item"><span>Неограниченное количество пользователей</span></li>
+              <li id="gray_item"><span>Мобильное приложение в подарок</span></li>
+              <li id="gray_item"><span>Собственный портал с бесплатным обновлением</span></li>
+              <li id="gray_item"><span>Неограниченное количество курсов</span></li>
+            </ul>
+          </div>
+          <div class="rates__content_footer">
+            <h2 id="rates__content_price">
+              20 000
+              <span id="tenge">₸</span>
+              <span id="price_month">/мес.</span>
+            </h2>
+            <button id="rates__content_button">Оставить заявку</button>
+          </div>
+        </div>
+        <div class="rates__content_items">
+          <div class="rates__content_header">
+            <h2 id="rates__content_title">02</h2>
+            <h3 id="rates__content_subtitle">Турбо</h3>
+            <ul class="rates__content_list">
+              <li><span>Только разовый платеж</span></li>
+              <li><span>Неограниченное количество пользователей</span></li>
+              <li><span>Неограниченное количество курсов</span></li>
+              <li><span>Личный менеджер</span></li>
+              <li><span>Бесплатная консультация</span></li>
+              <li><span>Онлайн прием платежей</span></li>
+              <li><span>Свой домен</span></li>
+              <li><span>Красивый дизайн кабинета</span></li>
+              <li><span>Тестирование</span></li>
+              <li><span>Выдача сертификатов</span></li>
+              <li><span>Собственный портал с бесплатным обновлением</span></li>
+              <li><span>Мобильное приложение в подарок</span></li>
+              <li id="gray_item"><span>Индивидуальная разработка под ваши требования</span></li>
+            </ul>
+          </div>
+          <div class="rates__content_footer">
+            <h2 id="rates__content_price">
+              500 000
+              <span id="tenge">₸</span>
+              <span id="price_month">/мес.</span>
+            </h2>
+            <button id="rates__content_button">Оставить заявку</button>
+          </div>
+          <img src="img/icons/gift-mini.svg" alt="" id="rates__gift1">
+        </div>
+        <div class="rates__content_items">
+          <div class="rates__content_header">
+            <h2 id="rates__content_title">03</h2>
+            <h3 id="rates__content_subtitle">Премиум</h3>
+            <ul class="rates__content_list">
+              <li><span>Индивидуальная разработка под ваши требования </span></li>
+              <li><span>Поддержка платформы</span></li>
+              <li><span>Мобильное приложение в подарок</span></li>
+            </ul>
+          </div>
+          <div class="rates__content_footer">
+            <h2 id="rates__content_price">
+              <span id="tenge"></span>
+              <span id="price_month"></span>
+            </h2>
+            <button id="rates__content_button">Оставить заявку</button>
+          </div>
+          <img src="img/icons/gift-mini.svg" alt="" id="rates__gift2">
+        </div>
+      </div>
+      <img src="img/icons/cloud-icon.png" alt="" id="rates__cloud">
+    </div>
+  </section>
+
+  <section class="opportunities">
+    <div class="content">
+      <div class="opportunities__title">
+        <h3 id="opportunities__title">Возможности едуцентра</h3>
+      </div>
+      <div class="opportunities__content">
+        <div class="opportunities__content_items">
+          <img src="img/icons/hierarchy 1.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Неограниченное количество учеников</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/smartphone 1.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Оптимизация под мобильные телефоны</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/user 1.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Защита от одновременного использования аккаунта</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/008-exam.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Тест и задание после каждого урока</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/009-download.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Надежная защита  видео от скачивание</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/012-data-analysis.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Профессиональная аналитика продаж</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/cashless-payment 1.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Оплата с карты и через онлайн платежи</p>
+        </div>
+        <div class="opportunities__content_items">
+          <img src="img/icons/011-online-class.svg" alt="" id="opportunities__icon">
+          <p id="opportunities__text">Возможность проведения вебинаров</p>
+        </div>
+      </div>
+      <button id="opportunities__button">Перейти на демоверсию</button>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews"> 
+    <div class="reviews__title">
+      <h3 id="reviews__title">О нас говорят</h3>
+    </div>
+    <div class="reviews__slider">
+      <div class="modal fade" id="review_myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y: 0;">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">  
+            <div class="modal-body" style="padding: 0px">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><img src="img/icons/close-icon-white.svg" alt=""></span>
+              </button>        
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="swiper-container reviewsSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__images">
+              <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/GX2zrm9yDf4" data-target="#review_myModal"><img src="img/icons/play-mini-icon.svg" alt="" id="reviews__images_play"></button>
+              <img src="img/Rectangle 428.jpg" alt="" id="reviews__images_effect">
+              <img src="img/Rectangle 427.jpg" alt="" id="reviews__images_avatar">
+            </div>
+            <h4 id="reviews__text">Айбек Куатбай</h4>
+            <h5 id="reviews__subtext">Основатель платформы Daryn Online</h5>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__images">
+              <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/GX2zrm9yDf4" data-target="#review_myModal"><img src="img/icons/play-mini-icon.svg" alt="" id="reviews__images_play"></button>
+              <img src="img/Rectangle 428.jpg" alt="" id="reviews__images_effect">
+              <img src="img/Rectangle 427.jpg" alt="" id="reviews__images_avatar">
+            </div>
+            <h4 id="reviews__text">Айбек Куатбай</h4>
+            <h5 id="reviews__subtext">Основатель платформы Daryn Online</h5>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__images">
+              <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/GX2zrm9yDf4" data-target="#review_myModal"><img src="img/icons/play-mini-icon.svg" alt="" id="reviews__images_play"></button>
+              <img src="img/Rectangle 428.jpg" alt="" id="reviews__images_effect">
+              <img src="img/Rectangle 427.jpg" alt="" id="reviews__images_avatar">
+            </div>
+            <h4 id="reviews__text">Айбек Куатбай</h4>
+            <h5 id="reviews__subtext">Основатель платформы Daryn Online</h5>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__images">
+              <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/GX2zrm9yDf4" data-target="#review_myModal"><img src="img/icons/play-mini-icon.svg" alt="" id="reviews__images_play"></button>
+              <img src="img/Rectangle 428.jpg" alt="" id="reviews__images_effect">
+              <img src="img/Rectangle 427.jpg" alt="" id="reviews__images_avatar">
+            </div>
+            <h4 id="reviews__text">Айбек Куатбай</h4>
+            <h5 id="reviews__subtext">Основатель платформы Daryn Online</h5>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__images">
+              <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/GX2zrm9yDf4" data-target="#review_myModal"><img src="img/icons/play-mini-icon.svg" alt="" id="reviews__images_play"></button>
+              <img src="img/Rectangle 428.jpg" alt="" id="reviews__images_effect">
+              <img src="img/Rectangle 427.jpg" alt="" id="reviews__images_avatar">
+            </div>
+            <h4 id="reviews__text">Айбек Куатбай</h4>
+            <h5 id="reviews__subtext">Основатель платформы Daryn Online</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="content3">
+      <div class="contacts__title">
+        <h3 id="contacts__title">Контакты</h3>
+      </div>
+      <div class="contacts__content">
+        <div class="contacts__content_items">
+          <h5 id="contacts__content_title">Адрес : </h5>
+          <h4 id="contacts__content_subtitle">Богенбай батыра 150</h4>
+        </div>
+        <div class="contacts__content_items">
+          <h5 id="contacts__content_title">Номер телефона : </h5>
+          <a href="tel:+77789920000"><h4 id="contacts__content_subtitle">+7 778 992 00 00</h4></a>
+        </div>
+        <div class="contacts__content_items">
+          <h5 id="contacts__content_title">Электронная почта: </h5>
+          <a href="mailto:sales@bgpro.kz"><h4 id="contacts__content_subtitle">Sales@bgpro.kz</h4></a>
+        </div>
+      </div>
+      <a href="#" id="contacts__maplink">
+        <p>Посмотреть на карте </p>
+        <img src="img/icons/play-blue.svg" alt="">
+      </a>
+    </div>
+    <a class="dg-widget-link" href="http://2gis.kz/almaty/firm/70000001044275485/center/76.93436443805696,43.25226724248828/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><div class="dg-widget-link"><a href="http://2gis.kz/almaty/center/76.934336,43.252249/zoom/16/routeTab/rsType/bus/to/76.934336,43.252249╎Bugin Soft, IT-компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Bugin Soft, IT-компания</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":"100%","height":600,"borderColor":"#a3a3a3","pos":{"lat":43.25226724248828,"lon":76.93436443805696,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"70000001044275485"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+  </section>
+
+  <footer>
+    <div class="content">
+      <div class="footer__up">
+        <a href="#" class="header__logo">
+          <img src="img/icons/logo-educenter.svg" alt="" id="header__logo-icon">
+          <p id="header__logo-text">создай свою онлайн школу <br/> вместе с educenter</p>
+        </a>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#about">О продукте</a></li>
+            <li><a href="#our_works">Наши работы</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#rates">Тарифы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="footer__social">
+          <a href="#"><img id="footer__social_items" src="img/icons/tg-icon.svg" alt=""></a>
+          <a href="#"><img id="footer__social_items" src="img/icons/wa-icon.svg" alt=""></a>
+          <a href="#"><img id="footer__social_items" src="img/icons/fb-icon.svg" alt=""></a>
+          <a href="#"><img id="footer__social_items" src="img/icons/ig-icon.svg" alt=""></a>
+          <a href="#"><img id="footer__social_items" src="img/icons/vk-icon.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="footer__down">
+        <div class="footer__allrights">
+          <p id="footer__allrights">© 2021 Все правы защищены</p>
+        </div>
+        <div class="footer__storeapp">
+          <a href="#">
+            <div class="footer__playstore">
+              <img id="footer__playstore_img" src="img/icons/android-icon.svg" alt="">
+              <p id="footer__playstore_text">Play Market</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="footer__appstore">
+              <img id="footer__appstore_img" src="img/icons/apple-icon.svg" alt="">
+              <p id="footer__appstore_text">App Store</p>
+            </div>
+          </a>
+        </div>
+        <div class="footer__developer">
+          <p id="footer__developer_text">Разработка сайта</p>
+          <img id="footer__developer_img" src="img/icons/logo-buginsoft.svg" alt="" id="footer__developer_img">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
